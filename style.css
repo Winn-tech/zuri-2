@@ -1,0 +1,66 @@
+@import url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+
+*{
+    padding: 0px;
+    margin: 0%;
+
+}
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+
+}
+.sec-1{
+    background-color: hsl(31, 77%, 52%);
+    padding: 30px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    min-width: 150px;
+}
+.sec-2{
+    background-color: hsl(184, 100%, 22%);
+    padding: 32px;
+    min-width: 150px;
+}
+.sec-3{
+    background-color: hsl(179, 100%, 13%) ;
+    padding: 32px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    min-width: 150px;
+}
+main{
+    display: flex;
+    width: 55%;
+    margin: 9% auto;
+    color: white;
+}
+.play{
+    background-color: white;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 10px 20px;
+    
+}
+.play-1{
+    color:  hsl(31, 77%, 52%);
+}
+.play-2{
+    color:hsl(184, 100%, 22%) ;
+}
+.play-3{
+    color: hsl(179, 100%, 13%) ;
+}
+h2, p{
+    margin: 20px 0;
+}
+h2{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+}
+p{
+    line-height: 20px;
+    font-size: smaller;
+    font-weight: 200;
+    opacity: 0.7;
+}
